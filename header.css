@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+        a {display: block;}
+        .top_LI{
+            width: 100%;
+            height: 37px;
+            /*background-color: rgba(255,255,255, 0.)*/;
+            background-color:rgba(255, 255, 255, 0.5);
+            position: relative;
+        }
+        .top_LI a {
+            float: right;
+            margin: 12px 9.5px;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 11px;
+            color: #646464;
+            position: relative;
+            right: 22px;
+            top: 2px;
+        }
+        .nav{
+            font-family: 'Noto Sans KR', sans-serif;
+            width: 100%;
+            height: 88px;
+            background-color:rgba(255, 255, 255,0.5);
+            align-items: center;
+            font-size: 16px;
+            border-top: 1px solid rgb(211, 211, 211);
+        }
+        .bedroom ul li span, .livingrom ul li span, .kitchen ul li span, .small ul li span{
+            position: relative;
+        }
+        .bedroom li:hover ul, .livingroom li:hover ul, .kitchen li:hover ul, .small li:hover ul, .guide li:hover ul, .service li:hover ul, .nav_event li:hover ul{
+            width: 120px;
+            height: 200px;
+            font-size: 15px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            position: absolute;
+            top: 40px;
+            outline: 0.5px solid rgb(207, 171, 173);
+            font-style: black;
+        }
+        .bedroom_hover li, .livingroom_hover li, .small_hover li, .guide_hover li, .service_hover li, .nav_event_hover li{
+            margin: 8px;
+        }
+        .kitchen li:hover ul, .small li:hover ul, .guide li:hover ul, .service li:hover ul, .nav_event li:hover ul{
+            width: 120px;
+            height: 80px;
+        }
+        .small li:hover ul, .guide li:hover ul, .service li:hover ul{
+            width: 125px;
+            height: 100px;
+        }
+        .guide li:hover ul, .service li:hover ul{
+            top: 100px;
+        }
+        .nav_event li:hover ul{
+            width: 120px;
+            height: 120px;
+            top: 100px;
+
+        }
+        .nav, .navLeft, .navRight{
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav{
+            justify-content: space-between;
+        }
+        .navLeft div, .navRight div{
+            margin: 5px;
+        }
+        .bedroom_hover, .livingroom_hover, .kitchen_hover, .small_hover, .guide_hover, .service_hover, .nav_event_hover{
+            display: none;
+            margin-left: -53px;
+        }
+        .navLeft {
+            width: 398px;
+            align-items: center;
+            padding: 0.5px;
+            position: absolute;
+            left: 116px;
+            top: 68px;
+
+        }
+        .navRight {
+            width: 350px;
+            align-items: center;
+            margin-right: 26px;
+        }
+        .guide_hover, .nav_event_hover{
+            margin-left: -35px;
+        }
+        .service_hover{
+            margin-left: -43px;
+        }
+        .nav_event_hover{
+            margin-left: -49px;
+        }
+        .nav a{
+            color: rgb(66, 66, 66);
+        }
+        .menu span{
+            display: block;
+            background-color: rgb(145, 145, 145);
+            color: black;
+            width: 29.5px;
+            height: 2px;
+            margin: 5px;
+            position: relative;
+            margin-left: 13px;
+        }
+        .no2{
+            left: 9px;
+        }
+        .search{
+            position: relative;
+            top: 3px;
+            right: 0px;
+        }
+        .menu{
+            position: relative;
+            left: 19px;
+            top: 1px;
+        }
+        .header{
+            position: relative;
+            z-index: 2;
+        }
+        .logo{
+            position: absolute;
+            left: 47%;
+            top: 61px;
+        }
+        .nevLeft_menu{
+            display: flex;
+        }

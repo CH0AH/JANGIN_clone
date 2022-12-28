@@ -1,0 +1,94 @@
+.review{
+    width: 100vw;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -332px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.RE_review{
+    width: 124px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    background-color: #ffffff;
+    padding: 0px 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16.5px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.RE_content{
+    width: 1580px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-top: 1px solid gray;
+    z-index: -1;
+}
+.RE_now{
+    width: 300px;
+    height: 200px;
+    margin: 90px 0px 0px 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 43px;
+    line-height: 52px;
+    color: #838383;
+    position: relative;
+}
+.RE_vivid{
+   width: 300px;
+   height: 100px;
+   font-family: 'Noto Sans KR', sans-serif;
+   font-size: 25px;
+   line-height: 27px;
+   margin: -5px 0px 0px 5px;
+   color: #818181;
+}
+.RE_img{
+    width: 920px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 650px;
+    top: -335px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+}
+.RE_img1, .RE_img2, .RE_img3{
+    width: 280px;
+    height: 280px;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    z-index:;
+}
+.RE_img1{
+    background-image: url(RE_img1.jpeg);
+}
+.RE_img2{
+    background-image: url(RE_img2.jpeg);
+}
+.RE_img3{
+    background-image: url(RE_img3.jpeg);
+}
+.RE_span{
+    width: 1300px;
+    height: 1px;
+    position: absolute;
+    background-color: #CCCCCC;
+    z-index: -1;
+    top: 150px;
+    left: -410px;
+}

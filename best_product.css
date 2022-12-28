@@ -1,0 +1,113 @@
+.BP{
+    position: relative;
+    top: -207px;
+    display: flex;
+    justify-content: center;
+}
+.best_product{
+    width: 1560px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    top: -111px;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BP_background_no1{
+    width: 100vw;
+    height: 310px;
+    background-color: #EFEFEF;
+    position: relative;
+    top: -126px;
+}
+.BP_background_no2{
+    width: 100vw;
+    height: 245px;
+    background-color: rgb(255, 255, 255);
+    top: 1689px;
+    position: absolute;
+    z-index: -1;
+}
+.BP_bestproduct{
+    width: 124px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    background-color: #EFEFEF;
+    padding: 0px 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16.5px;
+    font-weight: 600;
+}
+.BP_content{
+    width: 1560px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.BP_img_01,.BP_img_02,.BP_img_03,.BP_img_04{
+    width: 384px;
+    height: 270px;
+    background-color: gray;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.BP_img_01{
+    background-image: url(BP_img_01.jpg);
+}
+.BP_img_02{
+    background-image: url(BP_img_02.jpg);
+}
+.BP_img_03{
+    background-image: url(BP_img_03.jpg);
+}
+.BP_img_04{
+    background-image: url(BP_img_04.jpg);
+}
+.vivald, .eiffel, .diel, .alto{
+    position:absolute;
+    top: 145px;
+    width: 384px;
+    height: 125px;
+    background-color: #515151;
+    color: white;
+    transform: translateY(100%); 
+    transition: 0.7s;
+    display: inline-block;
+}
+.vivald_span, .eiffel_span, .diel_span, .alto_span{
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 25px 30px 20px;
+}
+.vivald_sofa, .eiffel_table, .diel_ward, .alto_bed{
+    margin: 0px 0px 0px 30px;
+    font-size: 18px;
+    line-height: 25px;
+    position: absolute;
+}
+.view_more_no1, .view_more_no2, .view_more_no3, .view_more_no4{
+    position: absolute;
+    top: 83px;
+    left: 280px;
+    font-size: 13px;
+    color: #dcdcdc;
+    text-decoration: underline;
+}
+.BP_img_01:hover .vivald{
+    transform: translateY(0%); 
+}
+.BP_img_02:hover .eiffel{
+    transform: translateY(0%); 
+}
+.BP_img_03:hover .diel{
+    transform: translateY(0%); 
+}
+.BP_img_04:hover .alto{
+    transform: translateY(0%); 
+}
