@@ -56,12 +56,12 @@
             height: 100px;
         }
         .guide li:hover ul, .service li:hover ul{
-            top: 100px;
+            top: 110px;
         }
         .nav_event li:hover ul{
             width: 120px;
             height: 120px;
-            top: 100px;
+            top: 110px;
 
         }
         .nav, .navLeft, .navRight{
@@ -84,7 +84,7 @@
             padding: 0.5px;
             position: absolute;
             left: 116px;
-            top: 68px;
+            top: 65px;
 
         }
         .navRight {
@@ -104,7 +104,7 @@
         .nav a{
             color: rgb(66, 66, 66);
         }
-        .menu span{
+        .menu_bar span{
             display: block;
             background-color: rgb(145, 145, 145);
             color: black;
@@ -122,10 +122,10 @@
             top: 3px;
             right: 0px;
         }
-        .menu{
-            position: relative;
+        .menu_bar{
+            position: absolute;
             left: 19px;
-            top: 1px;
+            top: 70px;
         }
         .header{
             position: relative;
