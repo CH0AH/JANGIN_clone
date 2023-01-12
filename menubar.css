@@ -1,0 +1,100 @@
+.burger_tap {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+input{display: none;}
+
+/*버거 메뉴 컨텐츠*/
+.Burger_Content {
+    width: 100%;
+    height: 430px;
+    background-color: white;
+    position: absolute;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    top: -430px;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+.BC_top {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BC_EXIT {
+    width: 65px;
+    height: 65px;
+    background-color: rgb(88, 88, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.BC_EXIT span {
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: white;
+}
+
+.Menu_EXIT1 {
+    transform: rotate(45deg);
+}
+
+.Menu_EXIT2 {
+    transform: rotate(-45deg);
+}
+
+.BC_outer {
+    width: 100%;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.BC_outer>ul {
+    width: 200px;
+    height: 268px;
+    display: flex;
+    padding: 40px 0px 0px 30px;
+    border-right: 1px solid rgb(222, 222, 222);
+}
+
+.border_line {
+    border-left: 1px solid rgb(222, 222, 222);
+}
+
+.BC_content {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+}
+
+.BC_inner {
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+    margin-top: 13px;
+}
+
+.BC_line {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: rgb(209, 7, 36);
+    margin: 15px 0px 30px 0px;
+}
+
+
+
+/*버거 메뉴 체크*/
+.Burger_Menu:checked ~ .Burger_Content {
+    top: 0px;
+    transition: 0.5s;
+}
