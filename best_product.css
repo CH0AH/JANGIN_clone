@@ -1,11 +1,12 @@
 .BP{
+    width: 100%;
     position: relative;
     top: -207px;
     display: flex;
     justify-content: center;
 }
 .best_product{
-    width: 1560px;
+    width: 82%;
     height: 450px;
     background-color: rgba(255, 255, 255, 0);
     position: relative;
@@ -42,14 +43,20 @@
     font-weight: 600;
 }
 .BP_content{
-    width: 1560px;
+    width: 100%;
     height: 450px;
     display: flex;
     justify-content: space-between;
 
 }
+.BP_content a{
+    width: 100%;
+}
+.BP_margin{
+    margin-left: 1%;
+}
 .BP_img_01,.BP_img_02,.BP_img_03,.BP_img_04{
-    width: 384px;
+    width: 100%;
     height: 270px;
     background-color: gray;
     margin-top: 50px;
@@ -58,20 +65,32 @@
 }
 .BP_img_01{
     background-image: url(BP_img_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .BP_img_02{
     background-image: url(BP_img_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .BP_img_03{
     background-image: url(BP_img_03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .BP_img_04{
     background-image: url(BP_img_04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .vivald, .eiffel, .diel, .alto{
     position:absolute;
     top: 145px;
-    width: 384px;
+    width: 100%;
     height: 125px;
     background-color: #515151;
     color: white;
@@ -83,10 +102,10 @@
     width: 25px;
     height: 2px;
     background-color: white;
-    margin: 25px 30px 20px;
+    margin: 30px 8% 20px;
 }
 .vivald_sofa, .eiffel_table, .diel_ward, .alto_bed{
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 9%;
     font-size: 18px;
     line-height: 25px;
     position: absolute;
@@ -94,7 +113,7 @@
 .view_more_no1, .view_more_no2, .view_more_no3, .view_more_no4{
     position: absolute;
     top: 83px;
-    left: 280px;
+    right: 10%;
     font-size: 13px;
     color: #dcdcdc;
     text-decoration: underline;
