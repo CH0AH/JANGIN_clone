@@ -1,9 +1,17 @@
 .final{
-    width: 100vw;
+    width: 100%;
     height: 586px;
     background-color: #e5e5e5;
     position: relative;
     top: -320px;
+    display: flex;
+    justify-content: center;
+}
+.final_box{
+    width: 82%;
+    height: 586px;
+    display: flex;
+    justify-content: center;
 }
 .TLN_SR_JITM, .SHOW_ROOM, .JANGIN_IN_THE_MEDIA{
     border-top: 1px solid gray;
@@ -16,22 +24,22 @@
     width: 500px;
     height: 390px;
     position: relative;
+    left: -33.2%;
     top: 120px;
-    left: 170px;
 }
 .SHOW_ROOM{
     width: 240px;
     height: 390px;
     position: absolute;
-    left: 540px;
-    top: 0px;
+    left: 38%;
+    top: 120px;
 }
 .JANGIN_IN_THE_MEDIA{
     width: 735px;
     height: 390px;
     position: absolute;
-    left: 825px;
-    top: 0px;
+    left: 53%;
+    top: 120px;
 }
 .TLN_latter, .SR_latter, .JITM_JANGIN_IN_THE_MEDIA{
     background-color: #e5e5e5;
@@ -46,11 +54,11 @@
 .TLN_content{
     width: 520px;
     height: 330px;
-    margin: 50px 0px 0px 20px;
+    margin: 9% 0px 0px 20px;
     border-right: 1px solid gray;
 }
 .TLN_background{
-    width: 500px;
+    width: 96%;
     height: 330px;
     background-image: url(TLN_background.jpg);
     background-size: cover;
