@@ -1,5 +1,5 @@
 .review{
-    width: 100vw;
+    width: 100%;
     height: 450px;
     background-color: rgb(255, 255, 255);
     position: relative;
@@ -24,7 +24,7 @@
     justify-content: center;
 }
 .RE_content{
-    width: 1580px;
+    width: 82%;
     height: 450px;
     background-color: rgb(255, 255, 255);
     position: relative;
@@ -50,17 +50,15 @@
    margin: -5px 0px 0px 5px;
    color: #818181;
 }
-.RE_img{
-    width: 920px;
+.RE_box{
+    width: 58.5%;
     height: 300px;
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    left: 650px;
-    top: -335px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 0;
+    position: relative;
+    left: 42%;
+    top: -335px;
 }
 .RE_img1, .RE_img2, .RE_img3{
     width: 280px;
@@ -84,11 +82,11 @@
     background-image: url(RE_img3.jpeg);
 }
 .RE_span{
-    width: 1300px;
+    width: 80%;
     height: 1px;
     position: absolute;
     background-color: #CCCCCC;
     z-index: -1;
-    top: 150px;
-    left: -410px;
+    top: 200px;
+    left: 235px;
 }
