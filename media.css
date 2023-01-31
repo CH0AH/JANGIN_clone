@@ -1,0 +1,113 @@
+@media only screen and (min-width:1750px) and (max-width:1879px) {
+
+    .SR_content,
+    .TLN_content {
+        border: none;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:1750px) {
+
+    /*review 반응형*/
+    .RE_img1,
+    .RE_img2,
+    .RE_img3 {
+        width: 250px;
+        height: 250px;
+    }
+
+    /*final 반응형*/
+    .TLN_SR_JITM {
+        width: 400px;
+        height: 390px;
+    }
+
+    .SHOW_ROOM {
+        width: 200px;
+        height: 390px;
+    }
+
+    .JANGIN_IN_THE_MEDIA {
+        width: 600px;
+        height: 390px;
+    }
+
+    .TLN_latter,
+    .SR_latter,
+    .JITM_JANGIN_IN_THE_MEDIA {
+        color: black;
+        font-size: 16px;
+    }
+
+    .TLN_latter {
+        left: 30%;
+    }
+
+    .TLN_content {
+        width: 420px;
+        height: 300px;
+        border: none;
+    }
+
+    .TLN_hover {
+        width: 404px;
+        height: 100px;
+        top: 270px;
+    }
+
+    .SR_content {
+        width: 240px;
+        height: 300px;
+        position: absolute;
+        top: 45px;
+        left: 2px;
+        border-right:none
+    }
+    .SR_img{
+        width: 200px;
+        height: 330px;
+        position: relative;
+        top: -4px;
+    }
+    .SR_BTN{
+        width: 150px;
+        height: 45px;
+        font-size: 17px;
+        padding-top: 5px;
+    }
+    .SR_BTN_search{
+        width: 20px;
+        height: 20px;
+        margin-right: 0px;
+    }
+    .JITM_content{
+        width: 600px;
+        height: 332px;
+        position: relative;
+        top: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .JIGM_content_no1, .JIGM_content_no2, .JIGM_content_no3{
+        width: 190px;
+        height: 330px;
+    }
+    .JIGM_hover_no1, .JIGM_hover_no2, .JIGM_hover_no3{
+        width: 190px;
+        height: 120px;
+    }
+    .JIGM_hover_span{
+        width: 35px;
+        height: 2px;
+        background-color: white;
+        margin: 35px 0px 15px 20px
+    }
+    .JIGM_hover_p1, .JIGM_hover_p2, .JIGM_hover_p3{
+        margin: 0px 20px 0px 20px;
+        font-size: 16px;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    .JIGM_hover_p2{
+        padding-top: 5px;
+    }
+}
