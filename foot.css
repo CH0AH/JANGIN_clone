@@ -146,4 +146,6 @@
    .madeby{
     font-size: 14px;
     color: #979797;
+    position: relative;
+    left: -10%;
    }       
