@@ -144,14 +144,18 @@
 .JIGM_content_no1{
     background-image: url(JITM_01.jpg);
     background-size: cover;
+    background-position: center;
 }
 .JIGM_content_no2{
     background-image: url(JITM_02.jpg);
     background-size: cover;
+    background-position: center;
 }
 .JIGM_content_no3{
     background-image: url(JITM_03.png);
     background-size: cover;
+    background-position: center;
+    
 }
 .JIGM_hover_no1, .JIGM_hover_no3{
     width: 240px;
