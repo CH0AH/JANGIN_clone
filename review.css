@@ -70,16 +70,22 @@
     font-size: 25px;
     font-family: 'Noto Sans KR', sans-serif;
     color: white;
-    z-index:;
 }
 .RE_img1{
     background-image: url(RE_img1.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 .RE_img2{
     background-image: url(RE_img2.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 .RE_img3{
     background-image: url(RE_img3.jpeg);
+    background-position: center;
+    background-size: cover;
+    
 }
 .RE_span{
     width: 80%;
