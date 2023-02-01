@@ -1,4 +1,4 @@
-@media only screen and (min-width:1750px) and (max-width:1879px) {
+@media only screen and (min-width:1751px) and (max-width:1879px) {
 
     .SR_content,
     .TLN_content {
@@ -61,26 +61,30 @@
         position: absolute;
         top: 45px;
         left: 2px;
-        border-right:none
+        border-right: none
     }
-    .SR_img{
+
+    .SR_img {
         width: 200px;
         height: 330px;
         position: relative;
         top: -4px;
     }
-    .SR_BTN{
+
+    .SR_BTN {
         width: 150px;
         height: 45px;
         font-size: 17px;
         padding-top: 5px;
     }
-    .SR_BTN_search{
+
+    .SR_BTN_search {
         width: 20px;
         height: 20px;
         margin-right: 0px;
     }
-    .JITM_content{
+
+    .JITM_content {
         width: 600px;
         height: 332px;
         position: relative;
@@ -88,26 +92,177 @@
         display: flex;
         justify-content: space-between;
     }
-    .JIGM_content_no1, .JIGM_content_no2, .JIGM_content_no3{
+
+    .JIGM_content_no1,
+    .JIGM_content_no2,
+    .JIGM_content_no3 {
         width: 190px;
         height: 330px;
+        top: -4px;
     }
-    .JIGM_hover_no1, .JIGM_hover_no2, .JIGM_hover_no3{
+
+    .JIGM_hover_no1,
+    .JIGM_hover_no2,
+    .JIGM_hover_no3 {
         width: 190px;
         height: 120px;
     }
-    .JIGM_hover_span{
+
+    .JIGM_hover_span {
         width: 35px;
         height: 2px;
         background-color: white;
         margin: 35px 0px 15px 20px
     }
-    .JIGM_hover_p1, .JIGM_hover_p2, .JIGM_hover_p3{
+
+    .JIGM_hover_p1,
+    .JIGM_hover_p2,
+    .JIGM_hover_p3 {
         margin: 0px 20px 0px 20px;
         font-size: 16px;
         font-family: 'Noto Sans KR', sans-serif;
     }
-    .JIGM_hover_p2{
+
+    .JIGM_hover_p2 {
         padding-top: 5px;
     }
+}
+
+@media only screen and (min-width:0px) and (max-width:1570px) {
+    .middle{
+        height: 2907px;
+    }
+
+    /*EVENT*/
+    .ev_left,
+    .ev_right,
+    .ev_left_no1,
+    .ev_right_no1 {
+        height: 330px;
+    }
+
+    .ev_left_no2,
+    .ev_right_no2 {
+        height: 310px;
+        width: 85%;
+    }
+
+    .event {
+        height: 620px;
+    }
+
+    .sale_no1 {
+        font-size: 13px;
+        margin: 17% 0px 0px 14%;
+        color: black;
+    }
+
+    .sofa {
+        font-size: 13px;
+        margin-left: 35px;
+    }
+
+    .sofa_new {
+        font-size: 27px;
+        margin-left: 35px;
+    }
+
+    .goodbye {
+        font-size: 30px;
+        margin: 10px 0px 0px 35px;
+    }
+
+    .date {
+        font-size: 18px;
+        margin-left: 35px;
+    }
+
+    .sale_span_no1,
+    .sale_span_no2 {
+        margin: 9% 0px 0px 35px;
+    }
+
+    .sale_bottom,
+    .sofa_bottom {
+        font-size: 14px;
+        margin-left: 35px;
+    }
+
+
+
+    /*REVIEW*/
+    .review {
+        height: 430px;
+    }
+
+    .RE_img1,
+    .RE_img2,
+    .RE_img3 {
+        width: 225px;
+        height: 225px;
+        font-size: 20px;
+    }
+
+    .RE_now {
+        font-size: 39px;
+    }
+
+    .RE_vivid {
+        font-size: 20px;
+    }
+
+    .RE_span {
+        left: 215px;
+    }
+
+    .RE_content {
+        width: 82%;
+        height: 330px;
+    }
+
+    /*FOOT*/
+
+    .foot {
+        position: relative;
+        height: 300px;
+    }
+
+    .madeby {
+        
+        font-size: 14px;
+        color: #979797;
+        position: absolute;
+        left: -10%;
+        margin-top: -10px;
+    }
+    .A_info{
+        width: 60%;
+       }
+       .posting{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 90%;
+        top: -110px;
+       }
+       .blog{
+        width: 40px;
+        position: relative;
+        left: -10px;
+        border-right:none;
+        padding-bottom: 10px;
+       }
+       .facebook{
+        width: 40px;
+        border-right:none;
+        border-bottom: 1px solid #CFCFCF;
+        border-top: 1px solid #CFCFCF;
+        padding: 10px 0px 10px 0px;
+       }
+       .instargram{
+        width: 40px;
+        padding-top: 10px;
+        position: relative;
+        left: -4px;
+       }
 }
