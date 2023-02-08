@@ -266,3 +266,10 @@
         left: -4px;
        }
 }
+
+
+@media only screen and (min-width:0px) and (max-width:1400px) {
+    .nevLeft_menu, .navRight {
+        display: none;
+    }
+}
