@@ -269,7 +269,12 @@
 
 
 @media only screen and (min-width:0px) and (max-width:1400px) {
-    .nevLeft_menu, .navRight {
+    .nevLeft_menu, .NLBOX {
         display: none;
+    }
+    .navRight {
+        width: 25px;
+        margin-right: 30px;
+        top: 78px;
     }
 }
